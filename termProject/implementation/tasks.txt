@@ -1,0 +1,17 @@
+﻿Paper: Toward Deep Reinforcement Learning without a Simulator: An Autonomous Steering Example
+
+Test Environment Game: Assetto Corsa
+
+1. Purchase Game
+2. Python script to capture screenshots at a reasonable framerate
+3. Apply deep neural networks for:
+	Imitation Learning
+	Reinforcement Learning
+	Deep Reward Induction		***An algorithm proposed by the paper
+	DDQN
+4. Run ‭vision analysis with GPU on the cloud (AWS)? -> May be able to do on computer, albeit slow
+
+Environmental Variables in Assetto Corsa:
+- Lotus Elise SC car model
+- Eliminate accelerator/brake control variability by using cruise control
+- Speed set to 50 kmh
